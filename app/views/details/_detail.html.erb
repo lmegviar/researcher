@@ -1,0 +1,6 @@
+<li> 
+	<%= detail.text %> 
+	<%= link_to 'Delete', [detail.article, detail],
+		method: :delete, 
+		data: { confirm: 'Are you sure?' } %>
+</li>
